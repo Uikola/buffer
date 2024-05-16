@@ -2,11 +2,12 @@ package buffer
 
 import (
 	"bytes"
-	"github.com/rs/zerolog/log"
 	"mime/multipart"
 	"net/http"
 	"os"
 	"sync"
+
+	"github.com/rs/zerolog/log"
 )
 
 // Buffer буфер для записи данных в бд поштучно.
