@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+  buffer:
+    image: buffer:latest
+    ports:
+      - "8000:8000"
+    restart: on-failure
